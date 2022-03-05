@@ -9,6 +9,7 @@ public class CoreApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CoreApplication.class, args);
 		System.out.println("Hello SpringBoot");
+		System.out.println("Windows Computer Commit Test");
 	}
 
 }
