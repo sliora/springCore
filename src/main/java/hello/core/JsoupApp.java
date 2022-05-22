@@ -38,6 +38,8 @@ public class JsoupApp {
                 list.add(document.select(".profile-ability-battle span").next("span").get(i).text());
             }
 
+            //브랜치 테스트
+
             System.out.println("치명 : " + list.get(0));
             System.out.println("특화 : " + list.get(1));
             System.out.println("신속 : " + list.get(3));
